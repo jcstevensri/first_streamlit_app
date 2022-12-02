@@ -38,7 +38,7 @@ add_my_fruit = streamlit.text_input('What fruit would you like to add?','jackfru
 streamlit.write('Thanks for adding ', add_my_fruit)
 
 # don't run anything past here while troubleshooting
-streamlit.stop()
+#streamlit.stop()
 
 import snowflake.connector
 
